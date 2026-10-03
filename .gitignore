@@ -1,0 +1,19 @@
+# secrets and local config (never commit these)
+.env
+.env.local
+.env*.local
+
+# dependencies and build output
+node_modules/
+.next/
+.expo/
+dist/
+web-build/
+
+# hosting tool folders
+.vercel/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
